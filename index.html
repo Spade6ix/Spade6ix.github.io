@@ -1,13 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8"/>
+	<!--Required-->
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" type="text/CSS" href="./css/styling.css" />
+	<link rel="icon" type="image/x-icon" href="./images/Spade.jpg" />
+	<title>Profile</title>
+	
 </head>
 
 
 <body>
-	<h1 align="center">SONNEIL WELLINGTON</h1>
+
+	<div class="container-fluid">
+		
+		<ul class="nav justify-content-end">
+			<li class="nav-item"> <a class="nav-link" href="#introduction"> Introduction </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#services"> Services </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#journey"> Journey </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#projects"> Projects </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#connect"> Connect </a> </li>
+		</ul>
+		
+		<div id="welcome">
+			<h1 align="center" id="greetings">Greetings!!!</h1>
+			<h2 align="center">Welcome to the Professional Profile of Sonneil Wellington</h2>
+			<h4 align="center">BSc. Computing Major: Computer Science (2023)</h4>
+			<h4 align="center">Software Developer/Database Administrator</h4>
+		</div>
+		
+		<div id="introduction">
+			<h1 align="center" id="intro">Introduction</h1>
+			<p align="center">
+			Sonneil is an individual that is passionate about technology and aims to have a long term career in Agile Development.
+			Sonneil has many attributes such as: being a team-player, having a tenacious work ethic, persistence, being analytical and having a professional attitude. 
+			</p>
+		</div>
+		
+		<!-- Carousel -->
+		<div id="services" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			
+			<h1 align="center">Services Offered</h1>
+			
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#services" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#services" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#services" data-bs-slide-to="2"></button>
+			</div>
+			
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<!--Database Slide-->
+				<div class="carousel-item active" data-bs-interval="5000">
+				  <img src="./images/Database.png" alt="Database" class="d-block w-100">
+				  <div class="carousel-caption">
+					<h4>Database Administration</h4>
+					<p></p>
+				  </div>
+				</div>
+				<!--Back-End Dev Slide-->
+				<div class="carousel-item" data-bs-interval="3000">
+				  <img src="./images/Backend.jpg" alt="Back-End" class="d-block w-100">
+				  <div class="carousel-caption">
+					<h4>Back-End Development</h4>
+					<p></p>
+				  </div>
+				</div>
+				<!--Front-End Dev Slide-->
+				<div class="carousel-item" data-bs-interval="3000">
+				  <img src="./images/Frontend.png" alt="Front-End" class="d-block w-100">
+				  <div class="carousel-caption">
+					<h4>Front-End Development</h4>
+					<p></p>
+				  </div>
+				</div>
+			</div>
+			
+			<!--Left and Right Buttons-->
+			<button class="carousel-control-prev" type="button" data-bs-target="#services" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#services" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+			
+		</div>
+		
+		<div id="journey">
+			<h1 align="center" id="journey">Journey</h1>
+			<p>
+				Sonneil commenced his software development journey at the age of 17. Firstly, he attained Information Technology and 7 other CSEC qualifications.
+				Secondly, he pursued Computer Science Unit 1 and a few other CAPE qualifications and was successful. He is currently at the University of Technology, Jamaica 
+				pursuing a BSc. Computing with a major in Computer Science. Also, while at the University of Technology, Jamaica, he has participated in a number of 
+				development projects and internships in order to improve and gain experience. 
+			</p>
+		</div>
+		
+		<div id="projects">
+			<h1 align="center" id="project">Projects</h1>
+			
+		</div>
+		
+		<footer id="connect">
+			
+		</footer>
+		
+	</div>
+	
 </body>
 
 </html>

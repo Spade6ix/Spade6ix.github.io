@@ -1,0 +1,73 @@
+body{
+	background:white;
+	margin:0px;
+}
+
+	.container-fluid{
+		padding-top:0px;
+		padding-left:0px;
+		padding-right:0px;
+		background-image: url("../images/background.gif");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+	}
+	
+	.nav{
+		background-color:skyblue;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	
+	.nav-link{
+		color: white;
+	}
+	
+	.nav-link:hover{
+		background-color:white;
+		color:black;
+	}
+	
+	#welcome{
+		padding-top:20px;
+	}
+	
+	#introduction p{
+		padding-left:400px;
+		padding-right:400px;
+	}
+	
+	#services .carousel-indicators button{
+		background-color:black;
+	}
+	
+	#services .carousel-inner h4{
+		color:black;
+		background-color:skyblue;
+	}
+	
+	#services .carousel-inner img{
+		height:500px;
+	}
+	
+	#services{
+		margin-left:150px;
+		margin-right:150px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	
+	#journey p{
+		background-color:skyblue;
+		margin-left:150px;
+		margin-right:150px;
+	}
+	
+	#connect{
+		background-color:skyblue;
+	}
+	
+	
+	
+	
+	
